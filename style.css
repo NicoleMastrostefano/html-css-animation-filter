@@ -9,11 +9,18 @@
   background-color: red;
   cursor: pointer;
 }
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: transform 4s;
+    transform-origin: left;
 }
+.ex-2-square:hover {
+  transform: scalex(11);
+}
+
 .ex-3-square {
     width: 100px;
     height: 100px;
